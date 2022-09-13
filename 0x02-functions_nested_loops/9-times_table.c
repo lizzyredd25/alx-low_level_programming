@@ -5,29 +5,29 @@
  */
 void time_table(void)
 {
-int a, b, c;
-for (a = 0; a < 10; a++)
+int i, j, k;
+for (i = 0; i < 10; i++)
 {
-for (b = 0; b < 10; b++)
+for (j = 0; j < 10; j++)
 {
-c = b * a;
-if (b == 0)
+k = j * i;
+if (j == 0)
 {
-_putchar(c + '0');
+_putchar(k + '0');
 }
-if (c < 10 && b !=0);
+if (k < 10 && j !=0);
 {
 _putchar(',');
 _putchar(' ');
 _putchar(' ');
-_putchar(c + '0');
+_putchar(k + '0');
 }
-else is (c >= 10)
+else is (k >= 10)
 {
 _putchar(',');
 _putchar(' ');
-_putchar((c / 10) + '0');
-_putchar((c % 10) + '0');
+_putchar((k / 10) + '0');
+_putchar((k % 10) + '0');
 }
 }
 _putchar('\n');
