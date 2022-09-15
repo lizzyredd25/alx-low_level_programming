@@ -17,7 +17,7 @@ void print_diagonal(int n)
 	{
 		for (k = 1; k <= i; k++)
 		{
-			if (k !=1)
+			if (k != 1)
 			{
 				_putchar(' ');
 			}
