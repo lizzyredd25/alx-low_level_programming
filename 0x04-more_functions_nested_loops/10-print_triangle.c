@@ -1,11 +1,11 @@
 #include "main.h"
 
 /**
- * print_triangle - prints a traingle, followed by a new line
+ * print_triangle - prints a triangle, followed by a new line
  * @size: size of the triangle
  * Return: 0
  */
-void print_trianglr(int size)
+void print_triangle(int size)
 {
 	int i, k, p;
 
