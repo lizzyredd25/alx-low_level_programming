@@ -1,0 +1,13 @@
+# Ignore all
+*
+
+# Unignore all with extensions
+!*.*
+
+# Unignore all dirs
+!*/
+
+# others to be ignored
+0-positive_or_negative.c
+3-main_a.c
+3-convert_day.c
