@@ -5,7 +5,7 @@
  * @a: pointer to integer 1
  * @b: pointer to integer 1
  */
-void swa_int(int *a, int *b)
+void swap_int(int *a, int *b)
 {
 	int tmp = *a;
 	*a = *b;
